@@ -1,62 +1,151 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <title>Ovak Properties</title>
-    <link rel="stylesheet" href="Ovak.css">
+    <link rel="stylesheet" href="ovak.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&family=Rubik:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
   </head>
 
+
   <body>
-    <!-- Go-To-Top Button -->
+    <!-- Go-to-Top Button -->
     <a class="mytop" name="top"></a>
-    <a class="topButton" id="mytop" href="#top" title="Go to Top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+    <a class="topButton" id="mytop" href="#top" title="Go to Top" onclick="functionName()"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
 
     <!-- Navigation Bar -->
-    <div class="navBar" id="myNavBar">
-      <a href="#" class="logo anchor">Logo</a>
-      <a href="#home" class="home anchor" title="Go Home">Home</a>
-      <p class="divider">|</p>
-      <a href="#news" class="properties anchor">Properties</a>
-      <p class="divider">|</p>
-      <a href="#contact" class="facility anchor">Facility Management</a>
-      <p class="divider">|</p>
+    <div class="navBar">
+      <a class="ovak anchor">Ovak Properties</a>
+      <a class="home anchor" title="Go Home">Home</a>
       <a href="#about" class="about anchor" title="Know more About Us">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction10()"><i class="fa fa-bars"></i></a>
+      <a href="#contact" class="facility anchor">Properties</a>
+      <a href="#news" class="properties anchor">Contact</a>
     </div>
 
-    <!-- The Image -->
-    <div class="image">
-      <img class="pic" src="ovak1.jpg" alt="file not found">
-      <div class="text">
-        <p class="find" id="myfind">Find Your Comfort .</p>
-        <a class="contact" id="mycontact" href="#">CONTACT US</a>
-      </div>
+    <!-- Image -->
+    <img class="background" src="bkg.jpg" alt="">
+    <div class="bkgtalk">
+      <p class="enjoy">ENJOY A WONDERFUL LIVING WITH A GREAT LUXURY EXPERIENCE</p>
+      <p class="comfort">MOST RELIABLE COMFORT</p>
     </div>
 
-    <!-- The Main Body -->
-    <div class="down">
-      <div class="">
-        <h2>Who are we?</h2>
-        <p class="back"><span></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="grey"><i>"Blah blah blah."</i></p>
-      </div>
-
-      <div class="">
-        <h2>What we offer...</h2>
-        <p class="back"><span></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="grey"><i>"Blah blah blah."</i></p>
-      </div>
+    <!-- Body one -->
+    <div class="bodyOne">
+      <p class="welcome">Welcome to Ovak properties</p>
+      <p>Consult ovak properties to experience an ideal way of living filled with comfort and welfare.</p>
+      <br>
+      <p>Delight yourself at a fantastic place - we offer excellent accomodation featuring constant power supply, availability of water and easy accesibility!</p>
+      <img class="image" src="imag.jpg" alt="">
+      <input class="searchbox" type="text" name="" value="" placeholder="Search...">
+      <a href="#"><i class="fa fa-search fa-2x search" aria-hidden="true"></i></a>
     </div>
 
-    <!-- Footer -->
-    <footer></footer>
+    <!-- Body two -->
+    <div class="bodyTwo">
+      <p class="services">Services & Resources</p>
+      <p class="apartment">Apartment amenities include spacious living environment, clean and working toilet, a well placed kitchen and more. You'll be impressed by a lot of the facilities provided.</p>
+    </div>
 
+    <!-- Container -->
+    <div class="container">
+      <div class="mySlides fade">
+        <div class="numbertext"><span>01</span> /03</div>
+        <img class="image1" src="imag1.jpg">
+        <div class="title">The Living Room</div>
+        <div class="text">The living room is spacious and can</div>
+        <div class="text2">accomodate all your furniture and appliances.</div>
+        <a class="details" href="#">VIEW DETAILS</a>
 
-  <script src="Ovak.js"></script>
+      </div>
+
+      <div class="mySlides fade">
+         <div class="numbertext"><span>02</span> /03</div>
+         <img class="image1" src="imag2.jpg">
+         <div class="title">The Bedroom</div>
+         <div class="text">The bedroom is spacious and is</div>
+         <div class="text2 text2b">fitted with a wardrobe just for you.</div>
+         <a class="details2" href="#">VIEW DETAILS</a>
+      </div>
+
+      <div class="mySlides fade">
+         <div class="numbertext"><span>03</span> /03</div>
+         <img class="image1" src="imag3.jpg">
+         <div class="title">The Bathroom</div>
+         <div class="text textb">The bathroom environment is sanitary,</div>
+         <div class="text2 text2c">spacious and is in perfect working conditions.</div>
+         <a class="details3" href="#">VIEW DETAILS</a>
+      </div>
+
+      <div class="slab"></div>
+
+      <a onclick="plusSlides(1)"><i class="fa fa-chevron-circle-right fa-3x rightArrow" aria-hidden="true"></i></a>
+      <a onclick="plusSlides(-1)"><i class="fa fa-chevron-circle-left fa-3x leftArrow" aria-hidden="true"></i></a>
+    </div>
+
+    <footer>
+      <p class="footnote">OVAK PRPERTIES</p>
+      <a href=""><i class="fa fa-instagram icons instagram" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-facebook-official icons" aria-hidden="true"></i></a>
+      <a href="https://wa.me/+2347082940103"><i class="fa fa-whatsapp icons" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin-square icons" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-github icons" aria-hidden="true"></i></a>
+      <p class="copyright">COPYRIGHT 2022 ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script>
+      // NAVIGATION BAR - MOBILE VIEW
+      function myFunction() {
+        var x = document.getElementById("myNavBar");
+        if (x.className === "navBar") {
+          x.className = "responsive";
+        } else {x.className = "navBar";}
+      }
+
+      // GO-tO-TOP BUTTON
+      var mybutton = document.getElementById("mytop");
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          mybutton.style.display = "block";
+        } else {mybutton.style.display = "none";}
+      }
+
+      function functionName() {
+        var b = document.getElementById("myNavBar");
+        if (b.className === "responsive") {
+          b.className = "navBar";
+        }
+      }
+
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex-1].style.display = "block";
+      }
+    </script>
   </body>
 </html>
